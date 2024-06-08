@@ -47,8 +47,11 @@ The Financial Data Analysis and Forecasting Platform is designed to process larg
 4. Navigate to the backend directory:
    cd FinancialDataPlatform/backend
 5. Create and activate a virtual environment:
+
    python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+source venv/bin/activate
+
+# On Windows use `venv\Scripts\activate`
 6. Install the required packages:
 
    pip install -r requirements.txt
