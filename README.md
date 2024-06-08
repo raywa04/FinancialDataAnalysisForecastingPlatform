@@ -64,6 +64,7 @@ On Windows use `venv\Scripts\activate`
   python data_processing.py
 
 8. Run the FastAPI server:
+
   uvicorn main:app --host 0.0.0.0 --port 80
 
 ### Frontend Setup
