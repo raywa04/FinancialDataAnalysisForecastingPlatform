@@ -104,7 +104,7 @@ az aks create --resource-group myResourceGroup --name myAKSCluster --node-count 
    
 az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 
-5. Deploy the backend and frontend services to Kubernetes:
+3. Deploy the backend and frontend services to Kubernetes:
 
 kubectl apply -f FinancialDataPlatform/deployment/backend-deployment.yaml
 
@@ -114,7 +114,7 @@ kubectl apply -f FinancialDataPlatform/deployment/frontend-deployment.yaml
 
 kubectl apply -f FinancialDataPlatform/deployment/frontend-service.yaml
 
-6. Get the external IP of the frontend service:
+4. Get the external IP of the frontend service:
 
 kubectl get service financial-data-frontend-service
 
