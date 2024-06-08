@@ -45,19 +45,22 @@ The Financial Data Analysis and Forecasting Platform is designed to process larg
    mkdir -p FinancialDataPlatform/backend/data
 3. Place your input data in the data directory.
 4. Navigate to the backend directory:
+
    cd FinancialDataPlatform/backend
+
 5. Create and activate a virtual environment:
 
    python -m venv venv
 source venv/bin/activate
 
-# On Windows use `venv\Scripts\activate`
+On Windows use `venv\Scripts\activate`
 6. Install the required packages:
 
    pip install -r requirements.txt
 7. Run the data processing script:
 
   python data_processing.py
+
 8. Run the FastAPI server:
   uvicorn main:app --host 0.0.0.0 --port 80
 
