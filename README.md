@@ -54,9 +54,11 @@ The Financial Data Analysis and Forecasting Platform is designed to process larg
 source venv/bin/activate
 
 On Windows use `venv\Scripts\activate`
+
 6. Install the required packages:
 
    pip install -r requirements.txt
+   
 7. Run the data processing script:
 
   python data_processing.py
